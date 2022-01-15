@@ -18,7 +18,6 @@ public class Main {
 
     public static int carParkingRoof(int[] carSpots,int kMinLen){
         Arrays.sort(carSpots);
-        //[2,6,7,12]
         List<Integer> ls = new ArrayList<>();
         List<Integer> lenLs = new ArrayList<>();
         int len = 0;
