@@ -29,11 +29,10 @@ public class Main {
                 lenLs.add(len);
                 len = 0;
                 ls.removeAll(ls);
-                i = i-2;
+                i = i-(kMinLen - 1);
             }
         }
         Collections.sort(lenLs);
-
         return lenLs.get(0);
     }
 }
